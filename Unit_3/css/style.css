@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: url("../images/tbm1.jpg");
+  background: url("../images/tbm3.jpg");
   background-repeat: no-repeat;
   background-color: #000000;
   background-size: cover;
@@ -12,9 +12,9 @@ hr {
   width: 200px;
 }
 h1{
-	color: #573412;
+	color: #ffffff;
 }
 p{
-	color: #573412;
+	color: #ffffff;
  font-size: 18px; 
 }
