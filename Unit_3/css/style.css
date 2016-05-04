@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background: url("../images/IMG_1588b.jpg");
+  background-repeat: no-repeat;
+  background-color: #272727;
+  background-size: cover;
+  font-family: helvetica;
+}
+
+hr {
+	color: #542224;
+  width: 200px;
+}
+h1{
+	color: #ffffff;
+}
+p{
+	color: #ffffff;
+ font-size: 18px; 
+}
