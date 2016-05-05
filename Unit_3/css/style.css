@@ -1,20 +1,41 @@
 body {
   text-align: center;
-  background: url("../images/Heirlooms2.jpg");
+  background: url("../images/xd.jpg");
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #692072;
   background-size: cover;
   font-family: helvetica;
 }
 
 hr {
-	color: #573412;
-  width: 200px;
+	color: #ffffff;
+  width: 100px;
+
 }
 h1{
 	color: #ffffff;
+	text-decoration: bold;
 }
 p{
-	color: #e69b50;
+	color: #ffffff;
  font-size: 18px; 
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f5ea5d;
+}
+
+/* selected link */
+a:active {
+    color: #f5ea5d;
 }
