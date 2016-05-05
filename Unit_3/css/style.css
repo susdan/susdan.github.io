@@ -39,3 +39,4 @@ a:hover {
 a:active {
     color: #f5ea5d;
 }
+a { text-decoration: none; }
