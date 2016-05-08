@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+	<title>Terra Anima</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<br style="line-height:0px;" /> 
+<style type="text/css">
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #F5FEFF;
+	font: 12px/16px Arial, Sans-Serif;
+	color: #7A7F7F;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	font-size: 180%
+	line-height: 120%;
+	padding: 5% 0;
+}
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+h3 {
+	line-height: 110%;
+	padding: 5% 0;
+}
+p {
+	padding: 1%;
+}
+h5 {
+	font-size: 8px;
+}
+img {text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #88F9FF;
+	text-decoration: underline;
+}
+header {
+	background: #7A7F7F;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+#logo {
+	margin:20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(images/TerraAnima200.png) no-repeat center;
+}
+nav {
+	float: auto;
+	padding: 35px 20px 20px 0;
+}
+/* #menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(images/menu.png) center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+} */
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #ffffff;
+	text-decoration: underline;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;
+}
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+}
+section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+/* article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 4%;
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	padding: 3%;
+} */
+ul.services li {
+	padding-left: 3%;
+}
+footer {
+	background: #7A7F7F;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+}
+footer p, footer h3 {
+	color: #ffffff;
+}
+footer p a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ul.social li {
+	display: inline;
+}
+ul.social li img {
+	height: 25px;
+}
+footer.second {
+	border-top: 1px solid #7A7F7F;
+	background-color: #7A7F7F;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+</script>
+<script src="jquery.blueberry.js"></script>
+<script>
+	$(window).load(function() {
+		$('.blueberry').blueberry(); 
+	});
+</script>
+</head>
+<body>
+<header>
+	<a href="images/TerraAnima200.png" id="logo"></a>
+	<!-- <nav>
+	<a href="#" id="menu-icon"></a>
+	<ul>
+		<li><a href="#" class="current">home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Showreel</a></li>
+		<li><a href="#">Awards</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>	
+	</nav> -->
+</header>
+<div id="doc">
+	<div id="content">
+		<div class="blueberry">
+			<ul class="slides">
+			<li><img src="images/xd2.jpg"></li>
+			<li><img src="images/tbm3.jpg"></li>
+			<li><img src="images/Henry1.jpg"></li>
+			<li><img src="images/ami.jpg"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- <section>
+	<img src="http://www.w3newbie.com/wp-content/uploads/trainers.png">
+	<h1>About Terra Anima</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+</section>
+<section>
+	<img src="http://www.w3newbie.com/wp-content/uploads/location.png">
+	<h1>Content-driven Creativity</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+</section>
+<section>
+	<img src="http://www.w3newbie.com/wp-content/uploads/check.png">
+	<h1>Marketing Projects</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+</section>
+<div class="clear"></div>
+<article>
+	<img src="images/ami.jpg">
+</article>
+<aside>
+	<h2>Services Provided</h2>
+	<ul class="services">
+	<li><h3>Broadcast Design and Branding</h3></li>
+	<li><h3>Logo Design and Animation</h3></li>
+	<li><h3>Traditional 2D and Stop-Motion Animation</h3></li>
+	<li><h3>Concept and Pitch Development</h3></li>
+	<li><h3>Compositing and VFX</h3></li>
+	</ul>
+</aside> -->
+<div class="clear"></div>
+<section>
+	<h1>Social Impact Projects</h1>
+	<img src="images/const_sm.jpg">
+	<p>Terra Anima is passionate about social change and is committed to working on projects with postive social impact.</p>
+</section>
+<section>
+	<h1>Branding projects</h1>
+	<img src="images/sbs_sm.jpg">
+	<p>We specialise in broadcast design and network branding including the SBS Rebrand (2011) and Disney Channel production graphics packages.</p>
+</section>
+<section>
+	<h1>Visualisation and infographics</h1>
+	<img src="images/vis_sm.jpg">
+	<p>Information certainly is beautiful. Terra Anima can work with you to bring data and facts to a life most colourful.</p>
+</section>
+<footer>
+<footer>
+	<section>
+		<h3><b>Say Hello!</b></h3>
+		<p><a href="mailto:animations@iprimus.com.au?subject=Hello Terra Anima!">animationsATiprimus.com.au</a></p>
+	</section>
+	<section>
+		<h3>Connect with us!</h3>
+		<ul class="social">
+			<li><a href="#"><img src="images/facebook.png"></a>
+			<li><a href="#"><img src="images/linkedin.png"></a>
+			<li><a href="#"><img src="images/twitter.png"></a>
+			<li><a href="#"><img src="images/vimeo.png"></a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<a href="#"><img src="images/TA.png"></a>
+	</section>
+</footer>
+</footer>
+<footer class="second">
+	<p>©Copyright Terra Anima 2016</p><br>
+	<h5>Typewriter icon by Simon Child from the Noun Project</h5>
+	<br>
+</footer>
+</body>
+</html>
