@@ -8,7 +8,7 @@
 
 body {
   text-align: center;
-  background: url("images/TransitLG.jpg") no-repeat center center fixed;
+  background: url("TransitLG.jpg") no-repeat center center fixed;
   background-size: cover; max-width:100%;
   background-repeat: no-repeat;
   color: #000000;
