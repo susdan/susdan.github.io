@@ -8,10 +8,10 @@
 
 body {
   text-align: center;
-  background: url("http://www.susandanta.com/imagerepos/TransitLG.jpg") no-repeat center center fixed;
+  background: url("http://www.susandanta.com/imagerepos/Projection.jpg") no-repeat center center fixed;
   background-size: cover; max-width:100%;
   background-repeat: no-repeat;
-  color: #000000;
+  color: #ffffff;
   font-family: helvetica;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-	background: #ffffff; /*fff182*/
+	background: #000000; /*fff182*/
 	width: 100%;
 	height: 30px;
 	position: none;
@@ -42,9 +42,10 @@ h2 {
 }
 p {
 	text-align: left;	
-	font-family: 'Courier', serif;
-	font-weight: Bolder;
-	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: white;
+
 	line-height: 140%;
 	font-size: 1em;
 	padding: 10px, 10px, 5px, 5px;
@@ -52,7 +53,7 @@ p {
 
 #contact {
 	text-align: right;
-	color: black;
+	color: white;
 	padding-right: 50px;
 	padding-top: 5px;
 }
@@ -60,13 +61,12 @@ ul.contact li {
 	display: inline;
 	padding-right: 50px;
 	float: right;
-	color: black;
+	color: #b0a089;
 }
 #title {
 	float: right;
-
-	width: 40%;
-	padding-top: 150px;
+	width: 30%;
+	padding-top: 80px;
 	text-align: left;
     
 } 
@@ -74,8 +74,8 @@ ul.contact li {
 #about {
 		clear: both;
 		float: right;
-	width: 40%;
-	padding-top: 150px;
+	width: 30%;
+	padding-top: 80px;
 	text-align: left;
     
 } 
@@ -91,18 +91,19 @@ ul.contact li {
 	clear: both;
 	float: left;
 	text-align: left;
-	padding-top: 150px;
+	padding-top: 80px;
 
 }
 
 .projects {
 	clear: both;
-	width: 40%;
+	width: 30%;
 	float: right;
 	padding-right:5em;
 	padding-left: 0;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 40;
 	text-align: left;
 
 }
