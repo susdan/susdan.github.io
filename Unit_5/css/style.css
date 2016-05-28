@@ -114,7 +114,8 @@ ul.contact li {
 
 
 #footer {
-    clear: both;
+  
+     clear: both;
     background-color:black;
     color:#fff182;
     clear:both;
@@ -123,6 +124,7 @@ ul.contact li {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 	font-size: 0.8em;
+
 }
 
 footer p a {
