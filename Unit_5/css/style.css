@@ -1,0 +1,138 @@
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+  text-align: center;
+  background: url("images/TransitLG.jpg") no-repeat center center fixed;
+  background-size: cover; max-width:100%;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-family: helvetica;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	background: #ffffff; /*fff182*/
+	width: 100%;
+	height: 30px;
+	position: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	text-align: left;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	background-color: #a0f293;
+	color: black;
+	line-height: 140%;
+	font-size: 1em;
+	padding: 10px, 10px, 5px, 5px;
+
+}
+p {
+	text-align: left;	
+	font-family: 'Courier', serif;
+	font-weight: Bolder;
+	color: black;
+	line-height: 140%;
+	font-size: 1em;
+	padding: 10px, 10px, 5px, 5px;
+}
+
+#contact {
+	text-align: right;
+	color: black;
+	padding-right: 50px;
+	padding-top: 5px;
+}
+ul.contact li {
+	display: inline;
+	padding-right: 50px;
+	float: right;
+	color: black;
+}
+#title {
+	float: right;
+
+	width: 40%;
+	padding-top: 150px;
+	text-align: left;
+    
+} 
+
+#about {
+		clear: both;
+		float: right;
+	width: 40%;
+	padding-top: 150px;
+	text-align: left;
+    
+} 
+
+
+#light{
+	font-family: 'Courier Light', serif;
+	float: left;
+	padding-top: 50px;
+}
+
+#content {
+	clear: both;
+	float: left;
+	text-align: left;
+	padding-top: 150px;
+
+}
+
+.projects {
+	clear: both;
+	width: 40%;
+	float: right;
+	padding-right:5em;
+	padding-left: 0;
+	text-align: center;
+	padding-top: 0px;
+	text-align: left;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+#footer {
+    clear: both;
+    background-color:black;
+    color:#fff182;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+	font-size: 0.8em;
+}
+
+footer p a {
+	color: #fff182;
+}
+ul.social li {
+	display: inline;
+	padding-right: 10px;
+}
+ul.social li img {
+	height: 25px;
+}
+
+
