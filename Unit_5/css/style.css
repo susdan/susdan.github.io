@@ -5,16 +5,22 @@
 	padding: 0;
 	box-sizing:border-box;
 }
-
 body {
-  text-align: center;
-  background: url("http://www.susandanta.com/imagerepos/Projection.jpg") no-repeat center center fixed;
-  background-size: cover; max-width:100%;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  font-family: helvetica;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:1.4;
 }
-
+#splash {
+	background: url("http://www.susandanta.com/imagerepos/Projection.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #ffffff;
+	height: 95vh;
+}
+#splash div {
+	float:right;
+	margin-top:10em;
+	width:30em;
+}
 #wrapper {
 	width: 1000px;
 	margin: 0 auto;
@@ -23,58 +29,40 @@ body {
 
 header {
 	background: #000000; /*fff182*/
-	width: 100%;
-	height: 30px;
-	position: none;
-	font-family: 'Open Sans', sans-serif;
+}
+nav {
+	float:right;
 }
 
 h2 {
-	text-align: left;	
-	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	background-color: #a0f293;
 	color: black;
-	line-height: 140%;
 	font-size: 1em;
-	padding: 10px, 10px, 5px, 5px;
+	padding: .5em .5em .25em .25em;
 
 }
 p {
 	text-align: left;	
-	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	color: white;
-
-	line-height: 140%;
-	font-size: 1em;
-	padding: 10px, 10px, 5px, 5px;
 }
-
-#contact {
-	text-align: right;
-	color: white;
+nav a {
+	display: inline-block;
 	padding-right: 50px;
-	padding-top: 5px;
-}
-ul.contact li {
-	display: inline;
-	padding-right: 50px;
-	float: right;
 	color: #b0a089;
 }
 #title {
 	float: right;
-	width: 30%;
+	width: 33.33%;
 	padding-top: 80px;
 	text-align: left;
     
 } 
 
 #about {
-		clear: both;
-		float: right;
-	width: 30%;
+	clear: both;
+	float: right;
+	width: 33.33%;
 	padding-top: 80px;
 	text-align: left;
     
@@ -88,37 +76,28 @@ ul.contact li {
 }
 
 #content {
-	clear: both;
-	float: left;
-	text-align: left;
-	padding-top: 80px;
-
+	max-width:75em;
+	margin:auto;
 }
 
 .projects {
-	clear: both;
-	width: 30%;
-	float: right;
-	padding-right:5em;
-	padding-left: 0;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 40;
+	padding:5em 0;
 	text-align: left;
 
 }
 
-.clear {
+.clearfix:after {
 	clear: both;
+	display:block;
+	visibility:hidden;
+	height:0;
+	content:".";
 }
 
 
-#footer {
-  
-     clear: both;
+footer {
     background-color:black;
     color:#fff182;
-    clear:both;
     text-align:center;
     padding:5px; 
     font-family: 'Open Sans', sans-serif;
