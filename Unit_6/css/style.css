@@ -1,0 +1,146 @@
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:1.4;
+}
+#splash {
+	background: url("http://www.susandanta.com/imagerepos/Projection.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #ffffff;
+	height: 95vh;
+}
+#splash div {
+	float:right;
+	margin-top:10em;
+	width:30em;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header {
+	background: #000000; /*fff182*/
+}
+nav {
+	float:right;
+}
+
+h2 {
+	font-weight: bold;
+	color: #a0f293;
+	font-size: 1em;
+	padding: .5em .5em .25em .25em;
+
+}
+p {
+	text-align: left;	
+	font-weight: lighter;
+	color: white;
+	padding: 1em .5em .25em .25em;
+}
+nav a {
+	display: inline-block;
+	padding-right: 50px;
+	color: #b0a089;
+}
+#title {
+	float: right;
+	width: 33.33%;
+	padding-top: 80px;
+	text-align: left;
+    
+} 
+
+#about {
+	clear: both;
+	float: right;
+	width: 33.33%;
+	padding-top: 80px;
+	text-align: left;
+    
+} 
+
+
+#light{
+	font-family: 'Courier Light', serif;
+	float: left;
+	padding-top: 50px;
+}
+
+#content {
+	max-width:75em;
+	margin:auto;
+}
+
+.projects {
+	padding:5em 0;
+	text-align: left;
+
+}
+
+.clearfix:after {
+	clear: both;
+	display:block;
+	visibility:hidden;
+	height:0;
+	content:".";
+}
+
+#two_column {
+    background-color: #555555;
+    border: 1px black solid;
+    padding: 20px;
+   	height: 600px;
+}
+
+#left {
+    background-color: #555555;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%; 
+}
+
+#right {
+    background-color: #555555;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+    background-color:black;
+    color:#fff182;
+    text-align:center;
+    padding:5px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+	font-size: 0.8em;
+
+}
+
+footer p a {
+	color: #fff182;
+}
+ul.social li {
+	display: inline;
+	padding-right: 10px;
+}
+ul.social li img {
+	height: 25px;
+}
+
+
